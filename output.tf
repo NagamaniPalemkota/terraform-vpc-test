@@ -8,3 +8,6 @@ output "vpc_id" {
 output "public_subnet_list" {
     value = module.vpc_test.public_subnet_ids
 }
+output "igw_id" {
+    value = module.vpc_test.internet_gateway_id
+}
